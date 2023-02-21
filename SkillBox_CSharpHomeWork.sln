@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillBox_CSharpHomeWork", "SkillBox_CSharpHomeWork\SkillBox_CSharpHomeWork.csproj", "{7340055C-3F6E-46E6-96AE-1265EAF441DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillBox_CSharp", "SkillBox_CSharpHomeWork\SkillBox_CSharp.csproj", "{7340055C-3F6E-46E6-96AE-1265EAF441DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_3", "HomeWork_3\HomeWork_3.csproj", "{52A20FE7-AD03-44F9-ACE7-1F271A883FAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_3", "HomeWork_3\HomeWork_3.csproj", "{52A20FE7-AD03-44F9-ACE7-1F271A883FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_4", "HomeWork_4\HomeWork_4.csproj", "{16A6187F-2B15-42EF-BEC5-74BAD3F5E490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52A20FE7-AD03-44F9-ACE7-1F271A883FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A20FE7-AD03-44F9-ACE7-1F271A883FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A20FE7-AD03-44F9-ACE7-1F271A883FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A6187F-2B15-42EF-BEC5-74BAD3F5E490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A6187F-2B15-42EF-BEC5-74BAD3F5E490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A6187F-2B15-42EF-BEC5-74BAD3F5E490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A6187F-2B15-42EF-BEC5-74BAD3F5E490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
