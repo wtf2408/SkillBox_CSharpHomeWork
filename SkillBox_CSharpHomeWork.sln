@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_4", "HomeWork_4\Ho
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork_5", "HomeWork_5", "{9CF179AD-3EB0-4F50-A6EE-ADB00509F951}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{9B3CC1E9-64F9-4E2C-AFCD-213F7D8B575C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "Task1\Task1.csproj", "{9B3CC1E9-64F9-4E2C-AFCD-213F7D8B575C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{0AB11545-DBA7-4FCA-BBE8-73BB8F7FB179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2", "Task2\Task2.csproj", "{0AB11545-DBA7-4FCA-BBE8-73BB8F7FB179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uiny_Modul5_DZ", "Uiny_Modul5_DZ\Uiny_Modul5_DZ.csproj", "{762DBA6D-3BAE-4486-A282-207721C0E7C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{0AB11545-DBA7-4FCA-BBE8-73BB8F7FB179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB11545-DBA7-4FCA-BBE8-73BB8F7FB179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB11545-DBA7-4FCA-BBE8-73BB8F7FB179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762DBA6D-3BAE-4486-A282-207721C0E7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762DBA6D-3BAE-4486-A282-207721C0E7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762DBA6D-3BAE-4486-A282-207721C0E7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762DBA6D-3BAE-4486-A282-207721C0E7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

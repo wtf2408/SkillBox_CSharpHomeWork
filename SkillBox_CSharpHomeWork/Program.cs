@@ -60,3 +60,28 @@
 //	Console.WriteLine();
 //}
 #endregion
+
+#region DateTime
+//Console.WriteLine(DateTime.Now);// время на сег. момент
+//Console.ReadLine();
+#endregion
+
+#region Работа с файлами
+string words = "Hello my name is";
+
+//File.WriteAllText(@"D:\testFile", words);
+File.AppendAllText(@"D:\testFile", " Bogdan");
+string path = @"D:\ЕГЭинформ";
+
+DirectoryInfo directory = new DirectoryInfo(path);
+Console.WriteLine(directory.FullName);
+foreach (var dir in directory.GetDirectories())
+{
+    Console.WriteLine("   " + dir.Name);
+	foreach (var file in dir.GetFiles())
+	{
+		Console.WriteLine("    " + file.Name);
+	}
+}
+
+#endregion
