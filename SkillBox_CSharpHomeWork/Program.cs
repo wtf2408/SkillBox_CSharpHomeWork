@@ -1,4 +1,6 @@
-﻿#region Тернарный оператор
+﻿using SkillBox_CSharp;
+
+#region Тернарный оператор
 //Random random = new Random();
 //int a = random.Next(1, 10);
 //Console.WriteLine(a);
@@ -67,21 +69,38 @@
 #endregion
 
 #region Работа с файлами
-string words = "Hello my name is";
 
-//File.WriteAllText(@"D:\testFile", words);
-File.AppendAllText(@"D:\testFile", " Bogdan");
-string path = @"D:\ЕГЭинформ";
 
-DirectoryInfo directory = new DirectoryInfo(path);
-Console.WriteLine(directory.FullName);
-foreach (var dir in directory.GetDirectories())
-{
-    Console.WriteLine("   " + dir.Name);
-	foreach (var file in dir.GetFiles())
-	{
-		Console.WriteLine("    " + file.Name);
-	}
-}
+//string words = "Hello my name is";
+
+////File.WriteAllText(@"D:\testFile", words);
+//File.AppendAllText(@"D:\testFile", " Bogdan");
+//string path = @"D:\ЕГЭинформ";
+
+//DirectoryInfo directory = new DirectoryInfo(path);
+//Console.WriteLine(directory.FullName);
+//foreach (var dir in directory.GetDirectories())
+//{
+//    Console.WriteLine("   " + dir.Name);
+//	foreach (var file in dir.GetFiles())
+//	{
+//		Console.WriteLine("    " + file.Name);
+//	}
+//}
+
+#endregion
+
+#region Структуры
+
+
+MonthReport[] monthReport = new MonthReport[3];
+
+
+monthReport[1] = new MonthReport("Февраль", 70000, 20000);
+
+Console.WriteLine(monthReport[1].Expense);
+Console.WriteLine(monthReport[1].Print());
+
+
 
 #endregion
